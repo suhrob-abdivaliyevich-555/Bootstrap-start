@@ -1,0 +1,34 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin-bottom: 56px;
+}
+.method{
+  background-image:linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url('../img/bg-masthead.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  opacity: 0.9;
+  min-height: 100vh;
+  font-weight:
+
+  /* margin-top: 56px; */
+}
+.box-r{
+  width: 100px;
+  height: 5px;
+}
+.about{
+  min-height: 400px;
+}
+.services{
+  min-height: 500px;
+}
+.navbar-collapse .navbar-nav .nav-item .nav-link:active{
+  color: red;
+}
+.hard:hover{
+  background-color: red;
+}
